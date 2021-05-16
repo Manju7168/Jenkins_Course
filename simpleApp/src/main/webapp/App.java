@@ -1,7 +1,9 @@
 public class App {
 
+    private App() {
+        throw new IllegalStateException("App class");
+    }
     public static String add(String a, String b) {
-        // TODO Auto-generated method stub
         return a+b;
     }
 
