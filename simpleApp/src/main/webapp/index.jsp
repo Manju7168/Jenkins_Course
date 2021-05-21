@@ -1,23 +1,9 @@
 <html>
-<body>
-<h2>Addition</h2>
-<form action = "main.jsp" method = "GET">
-<table>
-<tbody>
-<tr>
-<td> Firstnumber</td>
-<td>
-<input type="text" name="fnum" value=""/>
-</td>
-<td> Secondnumber</td>
-<td>
-<input type="text" name="snum" value=""/>
-</td>
-</tr>
-</tbody>
-</table>
-<input type = "submit" value = "Submit" />
- </form>
-
-</body>
+   <head>
+      <title>Using GET Method to Read Form Data</title>
+   </head>
+   <body>
+   <h1 style="background-color:powderblue;">This is a heading</h1>
+   <p style="background-color:tomato;">This is a paragraph.</p>
+   </body>
 </html>
